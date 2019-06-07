@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'instagram',
     'pyuploadcare.dj',
-    'mainapp'
+    'mainapp',
+    'accounts',
 ]
 
 MIDDLEWARE = [
