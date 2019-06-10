@@ -9,3 +9,5 @@ class Post(models.Model):
     date = models.DateTimeField(auto_now_add=True, null=True)
     content = models.TextField(null=True, max_length=500)
 
+    class Meta():
+        ordering = ['-date']
